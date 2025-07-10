@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Click the change Background to change the Background color</p>
+        <button onclick="changeColor()">Change Background</button>
+<script>
+    function changeColor(){
+    document.body.style.backgroundColor = "lightgreen";
+   }
+</script>
+        <h2>what can javascript do?</h2>
+        <p>Javascript can change  HTML attribute values</p>
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+        <button onclick="document.getElementById('myImage').src='/img/bulbon.png'">Turn on the light</button>
+        <img id="myImage" src="/img/bulboff.jpg" height="150px" width="150px">
+        <button onclick="document.getElementById('myImage').src='/img/bulboff.jpg'" height="150px" width="150px">Turn off the light</button>
+    </body>
+</html
